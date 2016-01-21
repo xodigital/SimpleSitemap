@@ -15,7 +15,8 @@ only a very naîve value for priority: 0.75 for the home page, 0.5 for all other
 4. Browse to `http://yoursite.com/sitemap.xml` and see the result of your hard work!
 
 ## Updates
-
+* 1.2.0.
+	* Added support for PHP 5.3
 * 1.1.0
 	* Add excludeIds config setting
   	'sitemap' => array(
