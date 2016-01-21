@@ -1,4 +1,4 @@
-# Simple Sitemap 1.1.0
+# Simple Sitemap 1.2.0
 
 Simple Sitemap automatically generates an XML [sitemap](http://www.sitemaps.org/) file for
 your Craft website.
