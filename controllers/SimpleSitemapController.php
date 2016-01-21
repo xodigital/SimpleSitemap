@@ -18,7 +18,8 @@ class SimpleSitemapController extends BaseController
 
 		if (craft()->config->exists('sitemap') &&
 			array_key_exists('excludeIds', craft()->config->get('sitemap'))) {
-			$excludeList = craft()->config->get('sitemap')['excludeIds'];
+                        $config = craft()->config->get('sitemap');
+                        $excludeList = $config['excludeIds'];
 		}
 
 
